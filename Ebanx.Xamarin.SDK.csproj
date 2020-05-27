@@ -2,6 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>2020.64.18.2003</Version>
+    <Authors>Code</Authors>
+    <Company>Code Informática</Company>
+    <Description>Pacote para integração com a plataforma de pagamentos Ebanx e Xamarin</Description>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/code-informatica/Ebanx.Xamarin.SDK</PackageProjectUrl>
+    <PackageIcon>512x512_code.png</PackageIcon>
+    <RepositoryUrl>https://github.com/code-informatica/Ebanx.Xamarin.SDK</RepositoryUrl>
+    <PackageTags>Ebanx, API, SDK, REST</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\svn\Code Informatica\code-workspace\identidade_visual\code\output\png\512x512_code.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
